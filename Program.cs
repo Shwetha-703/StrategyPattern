@@ -24,4 +24,4 @@ IHost _host = Host.CreateDefaultBuilder()
                  .Build();
 
 var app = _host.Services.GetRequiredService<IApplication>();
-app.Run();
+app.Run(); 
